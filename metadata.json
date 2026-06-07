@@ -1,0 +1,6 @@
+{
+  "name": "Shrilakshmi Hospital",
+  "description": "Official medical website for Shrilakshmi Hospital in Bengaluru. Explore clinical departments, consult our expert doctors, learn about our values, and securely book healthcare appointments online.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

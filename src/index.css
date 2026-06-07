@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;650;750&family=Inter:wght@300;400;500;650;750;850&family=JetBrains+Mono:wght@400;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "system-ui", sans-serif;
+  --font-display: "Space Grotesk", "system-ui", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-sky-650: #0369a1;
+  --color-sky-750: #015180;
+}
+
+/* Custom scrollbar and Bento aesthetics */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f8fafc; /* slate-50 */
+  color: #1e293b; /* slate-800 */
+}
+
+/* Bento card hover microdynamics */
+.bento-card {
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s ease;
+}
+
+.bento-card:hover {
+  transform: translateY(-2px);
+}
